@@ -14,4 +14,3 @@ class BasicsTestCase(unittest.TestCase):
 
     def test_app_exists(self):
         self.assertFalse(current_app is None)
-        
