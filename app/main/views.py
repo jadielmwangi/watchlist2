@@ -10,11 +10,6 @@ import markdown2
 from .. import db,photos
 # 
 
-
-
-
-
-
 # Views
 @main.route('/')
 def index():
