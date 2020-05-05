@@ -5,11 +5,11 @@ from ..models import User
 
 class ReviewForm(FlaskForm):
 
-title = StringField('Review title',validators=[Required()])
+ title = StringField('Review title',validators=[Required()])
 
- review = TextAreaField('Movie review')
+review = TextAreaField('Movie review')
 
- submit = SubmitField('Submit')
+submit = SubmitField('Submit')
 
 class UpdateProfile(FlaskForm):
     bio = TextAreaField('Tell us about you.',validators = [Required()])
